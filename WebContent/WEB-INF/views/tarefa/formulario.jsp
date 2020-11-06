@@ -1,11 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 	<body>
-		<h3>Adicionar Tarefas</h3>
+	<h3>Adicionar tarefas</h3>
 		<form action="adicionaTarefa" method="post">
-			Descricao: <br/>
-			<textarea name="descricao" rows="5" cols="100"></textarea><br/>
+			Descrição: <br />
+			<textarea name="descricao" rows="5" cols="100"></textarea><br />
 			<input type="submit" value="Adicionar">
 		</form>
 	</body>
