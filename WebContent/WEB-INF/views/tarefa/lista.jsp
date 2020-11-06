@@ -9,7 +9,7 @@
 		
 		<br/><br/>
 		
-		<table>
+		<table border="1">
 			<tr>
 				<th>Id</th>
 				<th>Descrição</th>
